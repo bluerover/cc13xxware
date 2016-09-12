@@ -200,8 +200,8 @@
 //#####################################
 
 #ifndef SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE
-#define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE            0x00       // Disable ROM boot loader
-// #define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE         0xC5       // Enable ROM boot loader
+//#define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE          0x00       // Disable ROM boot loader
+#define SET_CCFG_BL_CONFIG_BOOTLOADER_ENABLE            0xC5       // Enable ROM boot loader
 #endif
 
 #ifndef SET_CCFG_BL_CONFIG_BL_LEVEL
